@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "latam-challenge-infra",
+  "private_key_id": "ecbcf0fca43584f025439d55a362b2e102f8198b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4+Sf9lJOWueou\nbexBQy33gHApebTzDsylKjbhLgrSjiVyxY3XtnEchZ1VG5WrWaBVB3DUy8gtiVHT\n0qm0JmNPW9mqWFv6Bzh/K66s1dkKX4Dj+5gz/zrjpg8AK7s+/8BsirimYKahsI5/\njmm2Mnatk929z3A8dPkWjdAmJfr9Lth5KPkxRM9i8mBoSHR1ev+r9zv8MCdlD4Fr\nnIHwGYC7CH/G8OuEXI3fO73gJwSGVZhdMhYpCBwvkWDPofD+zUBTilk1emj/s6pu\nVBhvcWtjnYRjJF00acTue3vrN6HPl10WbUHtC/ALjz+TU0mVT7hmHPr2uB9Vs8jx\nzDI3a3+DAgMBAAECggEADs+IZ7H/VUjCmwAbNCiMZC5pDLEdj36mXS0xorsci7ps\n/jEaR+ToTqfWLqvcQpGVGGnVm3xLpXXC0wqhovaV6hNJLO4RQ0ZTvD8Dp/whekam\nW9rX14X+sZ6owdM+lW9F+Yrr+QpxHS41YrpE9Z05ynE2Bo43Bug4z5kASyWsYJw+\nAQthk8YYpotEzQFn0mlPIDF2B6xl9VLvti0E1Q7VISu6eJEijQZw8YPg0Gbao+lB\n3dLFBt3PPd70gG25HLkl1iY53N7rBbuMMRZygAa4alBgay0wayO6NkpAXca2vLE3\nN4/dM9ekZZdizLHpIZnTZ7iCo7z+6402pS80fA5tIQKBgQD3DMqqH3ipn7G7QD3L\nlJeCDMkfbFWPQr50mZBIsm2020vCsXfsU7Wr6qJJ+5pNbt7k2GRSmt4WOpkzLOK6\nBQKqNAB0KISnC/k+fBZn1j7oPM7R8qQTQy/N3nO3TDodvWtgHGK06cNwn3obauCC\nOgtCskHXf0Eoad4uvlSjn2sI4wKBgQC/rKX+IJ6ieZ2D5V3fA7b/MevsdAaE1CTA\nXmQuzBEdLJrscJkduMNG8V0poM2layKbRMRCEqwtPpnbwWv8PbZDtepwnsPbC28y\n3G1ffpMDHQMB+ySqbFpdm634rGb9HIp9St/NWbBye5UcJz4sJWLmwoUjHO/xpm5W\nyPO0+ZOQ4QKBgHOwl89nAXhdgjtv8AA/y1tpZV3Du6Vk2g98Qibo95rz/txjgwc2\nhCLHs8v1eOK+Ar8j3ocYYtwCAPAIGvyFkCPoSjYbK1OWtddfAJcLq1XR9AA5IkCq\n+93qSEIT/jsjEv9lC4ww1AcPh30DZbNWPyOymkayHu8v9I3rL3OYGeWFAoGBAJvP\nIpgzuABnT+3Z07bn9Cf6UsfBgVMUiFN/53xLElZe3gj5dt48RTE0HwEp4EFpl5YU\nDl2PhDq7OqLy1m8TU0gzZsHprVgwMVJs8NPBtou/V6SSnLmUntidJoyQyJ9URheX\nd9ob4F0PrKRYGigUtBLVaRij+0C6g9M0QzeH8bbBAoGBANj/KAoW0pxz/zxEQAlT\nSFwsWcw62vkYQ6tPAFIZC/lmgQP5MxSpKhdLfL+uIz61IT1Vo9LiBPyEXPwMCrP2\nagWIlCcAaHgxSJvwLnnD1Jqlami2c5PhgD9Krvw/L6P9yyKAtXBouwo8Wd1UxG06\nH8gGOVLyX164G1u971PpsCNE\n-----END PRIVATE KEY-----\n",
+  "client_email": "mey-sa@latam-challenge-infra.iam.gserviceaccount.com",
+  "client_id": "110744825924798079538",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mey-sa%40latam-challenge-infra.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
