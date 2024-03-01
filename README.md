@@ -67,7 +67,9 @@ Follow these steps to set up your environment for the script:
    python path_to_script.py
    ```
 
-   The script will process each student, scrape the public profile URLs for course titles, and update the Google Sheet with 'Y' or 'N' to indicate whether the course title was found.
+   The script will process each student, scrape the public profile URLs for course titles, and update the Google Sheet with 'Y' to indicate if the course title was found, which means that the student has completed this course.
+
+   In every excecution, the script will start in row 2 and only search for the course title if the cell is empty (to avoid searching whet it already has a Y). It is very important that those cells should not be edited manually.
 
 ## Notes
 
