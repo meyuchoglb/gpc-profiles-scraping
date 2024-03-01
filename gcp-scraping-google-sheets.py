@@ -8,7 +8,7 @@ from typing import Literal  # This will not work in Python 3.7
 
 # Set up the connection to Google Sheets
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('latam-challenge-infra-ecbcf0fca435.json', scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('secrets/latam-challenge-infra-ecbcf0fca435.json', scope)
 gc = gspread.authorize(credentials)
 
 # Open the Google Spreadsheet
