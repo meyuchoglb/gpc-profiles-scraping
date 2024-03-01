@@ -52,8 +52,8 @@ for index, student in enumerate(students_data):
             continue  # Skip if there's already a value in the cell
         if check_course_in_profile(student[3], course_title):  # Public profile URL is in the fourth column (index 3)
             worksheet.update_cell(current_student + 1, col_index + 1, 'Y')  # +1 because Google Sheets is 1-indexed
-        else:
-            worksheet.update_cell(current_student + 1, col_index + 1, 'N')
+        #else:
+        #    worksheet.update_cell(current_student + 1, col_index + 1, 'N')
 
     # Delay between rows to avoid being blocked
     print(f"Waiting before processing the next profile...")
