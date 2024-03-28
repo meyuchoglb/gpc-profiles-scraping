@@ -5,15 +5,17 @@ import requests
 import time
 #from typing_extensions import Literal
 from typing import Literal  # This will not work in Python 3.7
+import sys
 
 # Set up the connection to Google Sheets
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('secrets/latam-challenge-infra-ecbcf0fca435.json', scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('secrets/ydi-host-1a9d259678b4.json', scope)
 gc = gspread.authorize(credentials)
 
 # Open the Google Spreadsheet
 spreadsheet_name = 'gcp_challenge_profiles'
-worksheet_name = 'ACE'
+#worksheet_name = 'ACE'
+worksheet_name = sys.argv[1]
 print(f"Opening Google Spreadsheet: {spreadsheet_name}")
 #spreadsheet = gc.open(spreadsheet_name)
 spreadsheet = gc.open_by_key('17m7bBD3jU0fyQf52scNuu4PfKwfTDS8GIXg9JyvAtHA')
