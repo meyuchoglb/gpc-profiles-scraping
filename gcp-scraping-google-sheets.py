@@ -49,7 +49,7 @@ for index, student in enumerate(students_data):
     print(f"Scraping profile {current_student} of {total_students}: {student[0]} {student[1]}")
 
     # Iterate over each course column starting from 'Course A title'
-    for col_index, course_title in enumerate(headers[4:], start=4):
+    for col_index, course_title in enumerate(headers[5:], start=5):
         if student[col_index]:
             continue  # Skip if there's already a value in the cell
         if check_course_in_profile(student[3], course_title):  # Public profile URL is in the fourth column (index 3)
